@@ -22,6 +22,10 @@
   </head>
 
   <body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" crossorigin="anonymous"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
@@ -41,13 +45,67 @@
     <script src="https://www.google-analytics.com/analytics.js" async></script>
 
     <header>
-      <div class="logo">IES21</div>
-      <h1>JPA</h1><h2><small>Jornada de</br>Puertas Abiertas</small></h2>
-      <div class="ayuda">
-        <div class="col-1"><p>¿No sabés qué</br>
-        carrera estudiar?</p><a class="button" href="">Te ayudamos</a></div>
-        <div class="col-2">
-        <div class="tabela"></div></div>
+      <div class="container">
+        <div class="logo">IES21</div>
+        <h1>JPA</h1><h2><small>Jornada de</br>Puertas Abiertas</small></h2>
+        <div class="container2">
+          <div class="ayuda">
+            <div class="col-1"><p>¿No sabés qué</br>carrera estudiar?</p><a class="button" href="">Te ayudamos</a></div>
+            <div class="col-2">
+              <div class="tabela"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; left: 50%;top:0;height:380px;width:100%;max-width: 1200px;">
+        <div class="bg-header"></div>
+      </div>
     </header>
+
+    <div class="break"></div>
+
+    <section>
+      <div class="container2">
+        <h2>¿De qué se trata la JPA?</h2>
+
+        <div id="video">
+            <a class="play_video" href="javascript:void(0)" style="width:100%; display:block">
+                <span class="boton_play"></span>
+                <img id="thumb_video" src="https://img.youtube.com/vi/jkJBClo7WgI/mqdefault.jpg" class="imyt">
+            </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="break"></div>
+
+    <section>
+      <h2>Charlas virtuales por carreras</h2>
+    </section>
+
+    <div class="break"></div>
+
+    <section>
+      <h2><small>Taller:</small></h2>
+      <h2>Pensando tu elección de carrera</h2>
+    </section>
+
+    <section class="beneficio">
+      <div class="b1">
+        <h2>Beneficio</h2>
+      </div>
+      <div class="b2">
+        <img src="img/ubicacion.svg" alt="ubicación" />
+        <h3>40% de descuento</h3>
+        <p>en tu matrícula para iniciar el próximo semestre participando de la JPA </p>
+      </div>
+    </section>
+
+    <footer>
+      <h3>Conocé más sobre nosotros</h3>
+      <a href="https://www.ies21.edu.ar">www.ies21.edu.ar</a>
+      <div class="logo">IES21</div>
+    </footer>
+
   </body>
 </html>
